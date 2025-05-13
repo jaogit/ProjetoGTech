@@ -166,7 +166,7 @@ function Footer() {
         </div>
         <hr className="border-b border-gray-500 w-full mt-[16px]" style={{ borderWidth: '0.5px' }} />
         <div className="mx-auto py-4 pb-[1px] text-[13px] text-center">
-          &#169; 2022 Digital College
+          &#169; 2025 Digital College
         </div>
       </footer>
   );
