@@ -1,10 +1,12 @@
 // src/App.jsx
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Login from './pages/Login';
+import ProductCard from './components/ProductCard';
+import ProductListing from './components/ProductListing';
 import Header from './components/Header';  // Importando o Header
 import Footer from './components/Footer';  // Importando o Footer
 import './index.css'; 
+import ProductListingPage from './pages/ProductListingPage';
 
 function App() {
   return (
@@ -13,10 +15,10 @@ function App() {
       <Header />
       
       <div className="content">
-        {/* Rotas para as páginas Login e Home */}
+        {/* Rotas para as páginas Login, Cart e Home */}
         <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
+          <Route path='/Product' element={<ProductListingPage />} />
         </Routes>
       </div>
 
