@@ -47,10 +47,10 @@ function Header() {
 <div className="navegation">
            <nav>
             <ul className="flex py-11 gap-8">
-                    <li><a href="Home" className="hover:text-pink-600 hover:font-bold hover:underline underline-offset-8">Home</a></li>
+                    <li><a href="/" className="hover:text-pink-600 hover:font-bold hover:underline underline-offset-8">Home</a></li>
                     <li><a href="Product" className="hover:text-pink-600 hover:font-bold hover:underline underline-offset-8">Produtos</a></li>
                    <li><a href="#" className="hover:text-pink-600 hover:font-bold hover:underline underline-offset-8">Categorias</a></li>
-                   <li><a href="#" className="hover:text-pink-600 hover:font-bold hover:underline underline-offset-8">Meus Pedidos</a></li>
+                   <li><a href="View" className="hover:text-pink-600 hover:font-bold hover:underline underline-offset-8">Meus Pedidos</a></li>
             </ul>
         </nav>
         </div>
